@@ -1,3 +1,2 @@
-for i in range(1801, 2401):
-    if i % 4 == 0 and (i % 400 == 0 or i % 100 != 0):
-        print(i)
+for Y in range(451, 601):
+    if Y % 100 == 0 or Y % 25 != 0:print(Y*4)
